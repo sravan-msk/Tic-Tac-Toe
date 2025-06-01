@@ -6,6 +6,8 @@
 body {
     text-align: center;
     height: 100vh;
+        background-color: brown;
+
 }
 header {
     height: 30vh;
@@ -65,4 +67,22 @@ main {
 }
 .hide {
     display: none;
+}
+@media (max-width:425px){
+    .box {
+        height: 90px;
+        width: 90px;
+        font-size: 25px;
+    }
+    .container {
+        height: 350px;
+        width: 300px;
+    }
+    .btn {
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+        margin: 10px;
+    }
+   
 }
