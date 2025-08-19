@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     text-align: center;
     height: 100vh;
-        background-color: brown;
+    background-color: brown;
+    overflow: hidden;
 
 }
+
 header {
     height: 30vh;
     background-color: brown;
@@ -27,6 +30,7 @@ main {
     align-items: center;
     flex-direction: column;
 }
+
 .container {
     height: 500px;
     width: 500px;
@@ -35,7 +39,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 }
 
 .box {
@@ -48,6 +52,7 @@ main {
     font-weight: 600;
     font-size: 50px;
 }
+
 .btn {
     height: 50px;
     width: 120px;
@@ -57,32 +62,38 @@ main {
     background-color: black;
     border: none;
 }
+
 .msg-container {
     padding: 10px;
 }
-.msg-container >h4 {
+
+.msg-container>h4 {
     color: yellow;
     font-size: 20px;
     font-weight: 400;
 }
+
 .hide {
     display: none;
 }
-@media (max-width:425px){
+
+@media (max-width:425px) {
     .box {
         height: 90px;
         width: 90px;
         font-size: 25px;
     }
+
     .container {
         height: 350px;
         width: 300px;
     }
+
     .btn {
         height: 30px;
         width: 80px;
         font-size: 10px;
         margin: 10px;
     }
-   
+
 }
